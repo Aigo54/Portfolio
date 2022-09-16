@@ -342,63 +342,18 @@
             
             <section id="contact" class="contact-section section-padding" data-scroll-index="5">
                 <div class="container">
-                    <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <div class="section-heading mb-40 text-center fadeInUp">
                         <h2>Get In Touch</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <form method="post" class="row contact-form text-center">
-                                <div class="form-group col-lg-6">
-                                    <input type="text" class="form-control" id="name" name="name_contact" placeholder="Your name" required>
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <textarea class="form-control message" id="message" name="message" placeholder="Message" required></textarea>
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <button id="submit" class="default-btn" type="submit">Send Message</button>
-                                    <?php
+                    <center><a href="https://www.instagram.com/ja_samuel_57/" target="_blank" style="margin-top:10%;"><i class="ti-envelope"></i></a></center>
+                    <center><a href="mailto:samuel.joseph.alexandre@outlook.fr">→ samuel.joseph.alexandre@outlook.fr ←</a></center>
+                    <center><h3 style="margin-top:15%;">Or with links below</h3></center>
 
-                                        require 'connectionDataBase.php';
-                                    if(!empty($_POST['email']) && !empty($_POST['name_contact']) && !empty($_POST['message'])){
-                                        date_default_timezone_set('Europe/Paris');
-                                        $DateAndTime = date('m-d-Y h:i:s a', time());
-
-                                        $req = $pdo->prepare(
-                                        "INSERT INTO contact (mail,name_contact,msg,dateMessage,statut_message)
-                                        VALUES(:mail,:name_contact,:msg,:dateMessage,:statut_message)",
-                                        array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY)
-                                        );
-
-                                        $req->execute(
-                                        array(
-                                            ':mail' => htmlspecialchars($_POST['email']),
-                                            ':name_contact' => htmlspecialchars($_POST['name_contact']),
-                                            ':msg' => htmlspecialchars($_POST['message']),
-                                            ':dateMessage' => $DateAndTime,
-                                            ':statut_message' => "1",
-                                        )
-                                        );
-
-                                        $req->closeCursor();
-                                        ?>
-                                        <p style="margin-top:3vh;">Nice! I will answer quickly!</p>
-                                        <?php
-                                    }else{
-                                        ?>
-
-                                        <?php
-                                    }
-
-                                        ?>
-                                </div>
-                                <div id="form-messages" class="form-group col-lg-12">
-                                    <div class="alert" role="alert"></div>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="footer-social text-center" style="margin-top:10%;">
+                        <a href="https://www.linkedin.com/in/samuel-ja/" target="_blank"><i class="ti-linkedin"></i></a>
+                        <a href="https://github.com/Aigo54" target="_blank"><i class="ti-github"></i></a>
+                        <a href="https://twitter.com/WKliat" target="_blank"><i class="ti-twitter"></i></a>
+                        <a href="https://www.instagram.com/ja_samuel_57/" target="_blank"><i class="ti-instagram"></i></a>
                     </div>
                 </div>
             </section>
