@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Personal Portfolio / CV / Resume website">
+        <meta name="author" content="Samuel J.">
+        
+        <title>Samuel J. | Personal Portfolio</title>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="img/france.png" />
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-menu.css"/>
+        <link rel="stylesheet" href="css/animate.min.css" />
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/elegant-line-icons.css">
+        <link rel="stylesheet" href="css/venobox/venobox.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+
+    </head>
+    <body>
+
+        
+        <div class="site-preloader-wrap">
+            <div class="spinner"></div>
+        </div>
+        <!-- preloader -->
+
+        <div class="dl-fixed-sidebar dl-sidebar-left"> 
+            <img src="img/origine-france-2-1-1.png" alt="french flag" style="width:70%;">
+            <div>
+                <nav class="dl-menu-fixed">
+                    
+                    <ul>
+                        <li><a href="#home" data-scroll-nav="0">Home</a></li>
+                        <li><a href="#services" data-scroll-nav="1">About Me</a></li>
+                        <li><a href="#about" data-scroll-nav="2">Resume</a></li>
+                        <li><a href="#services" data-scroll-nav="3">Services</a></li>
+                        <li><a href="#portfolios" data-scroll-nav="4">Portfolios</a></li>
+                        <li><a href="#contact" data-scroll-nav="5">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- sidebar -->
+
+        <div class="dl-side-content">
+            <div class="content-lines-wrapper">
+                <div class="content-lines-inner">
+                    <div class="content-lines"></div>
+                </div>
+            </div>
+            
+            <header class="hero-section d-flex align-items-center bd-bottom" data-scroll-index="0">
+                <div id="particles-js"></div>
+                <div class="container">
+                    <div class="hero-content text-center">
+                        <h4>Hello! I'M</h4>
+                        <h1>Samuel</h1>
+                        <h2>I'm a <span class="typed"></span></h2>
+                    </div>
+                    <ul class="hero-social">
+                        <li><a href="https://www.linkedin.com/in/samuel-ja/" target="_blank"><i class="ti-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Aigo54" target="_blank"><i class="ti-github"></i></a></li>
+                        <li><a href="https://twitter.com/WKliat" target="_blank"><i class="ti-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/ja_samuel_57/" target="_blank"><i class="ti-instagram"></i></a></li>
+                       
+                    </ul>
+                </div>
+            </header>
+            <!-- hero-section -->
+            
+            <section id="about" class="about-section section-padding bd-bottom" data-scroll-index="1">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 sm-padding wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="about-content">
+                               <h2>Let Me Introduce Myself.</h2>
+                                <p>As far as I can remember I have always been passionate about computers, the web, and technology in general, but I also wanted to protect my country and the population, so I joined the police services, I was able to join an intervention brigade where I learned to manage stress and quickly make very important decisions.
+                                    </br>However, my passion for Tech was still there and I couldn't resist converting to this wonderful field.</br>
+                                    I love to work in Web Development, I love to solve the client problem and find easy and better solutions to solve it. </br>I always try my best to make good user interface with the best user experience.</p>
+                                <ul class="profile-info">
+                                    <li><span>Full Name</span> Samuel Joseph-alexandre</li>
+                                    <li><span>Country</span> France</li>
+                                    <li><span>Email</span> samuel.joseph.alexandre@outlook.fr</li>
+                                    <li><span>Website</span> samuel-ja.com</li>
+                                    <li><span>Passions</span> mountaineering, hiking, chess, sports, video games</li>
+                                </ul>
+                                <a href="img/Samuel_JOSEPHALEXANDRE_CV_2.PDF" target="_blank" class="default-btn">Download CV<i class="ti-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 sm-padding wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="about-bg">
+                               <img src="img/PHOTO-2022-05-16-19-00-18.jpg" alt="profile photo">
+                               <div class="dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about-section -->
+            
+            <section id="resume" class="resume-section section-padding bd-bottom" data-scroll-index="2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 sm-padding wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="section-heading mb-40">
+                               <h2>Diplomas</h2>
+                            </div>
+                            <ul class="exp-list">
+                                <li>
+                                    <div class="exp-date">
+                                        <i class="ti-bookmark"></i>
+                                        <span>February 2022</span>
+                                    </div>
+                                    <div class="exp-content">
+                                        <h4>CCI Moselle <span>Web Developper</span></h4>
+                                        <p>Bac +2 equivalent diploma in web and mobile web development.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp-date">
+                                        <i class="ti-bookmark"></i>
+                                        <span>January 2018</span>
+                                    </div>
+                                    <div class="exp-content">
+                                        <h4>Law enforcement <span>Document Fraud Investigator</span></h4>
+                                        <p>Documentary fraud investigator diploma during my contract in the national police.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp-date">
+                                        <i class="ti-bookmark"></i>
+                                        <span>Juillet 2016</span>
+                                    </div>
+                                    <div class="exp-content">
+                                        <h4>High school <span>Commerce diploma</span></h4>
+                                        <p>Professional baccalaureate diploma in Commerce.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 sm-padding wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="skill-wrap">
+                               <div class="section-heading mb-40">
+                                   <h2>Languages / Frameworks</h2>
+                               </div>
+                               <center><p>Certificate</p></center>
+                                <ul class="skill-items">
+                                    <li class="skill-item">
+                                        <h5>HTML 5</h5>
+                                        <i class="devicon-html5-plain iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>CSS 3</h5>
+                                        <i class="devicon-css3-plain iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>Javascript</h5>
+                                        <i class="devicon-javascript-plain iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>Bootstrap 5</h5>
+                                        <i class="devicon-bootstrap-plain iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>PHP</h5>
+                                        <i class="devicon-php-plain iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>MySQL</h5>
+                                        <i class="devicon-mysql-plain iconDev"></i>
+                                    </li>
+                                </ul>
+                                <center><p style="margin-top: 10%;">In training</p></center>
+                                <ul class="skill-items">
+                                    <!-- <li class="skill-item">
+                                        <h5>Swift & SwiftUI</h5>
+                                        <i class="devicon-swift-plain iconDev"></i>
+                                    </li> -->
+                                    <!-- <li class="skill-item">
+                                        <h5>Nodejs</h5>
+                                        <i class="devicon-nodejs-plain iconDev"></i>
+                                    </li> -->
+                                    <!-- <li class="skill-item">
+                                        <h5>Express</h5>
+                                        <i class="devicon-express-original iconDev"></i>
+                                    </li>
+                                    <li class="skill-item">
+                                        <h5>MongoDb</h5>
+                                        <i class="devicon-mongodb-plain iconDev"></i>
+                                    </li> -->
+                                    <li class="skill-item">
+                                        <h5>Twig</h5>
+                                        <img src="img/logo.png" alt="twig" class="iconDev"
+                                        style="width:25%;-webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */ filter: grayscale(100%); /* Firefox */">
+                                    </li>
+                                    <!-- <li class="skill-item">
+                                        <h5>Figma</h5>
+                                        <i class="devicon-figma-plain iconDev"></i>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- resume-section -->
+            
+            <section id="services" class="services-section section-padding bd-bottom" data-scroll-index="3">
+                <div class="container">
+                    <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                        <h2>Outstanding Services</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="services-item">
+                                <i class="ti-world"></i>
+                                <h3>Web Development</h3>
+                                <p>I will code your website from A to Z, without CMS, and which suits you. </p>
+                                <div class="dots"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <div class="services-item">
+                                <i class="icon-tools"></i>
+                                <h3>UX UI Design</h3>
+                                <p>UX / UI - Both elements are crucial to a product and I will do it for you. </p>
+                                <div class="dots"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
+                            <div class="services-item">
+                                <i class="icon-search"></i>
+                                <h3>SEO</h3>
+                                <p>I will boost the quality and quantity of website traffic to your website or your web page from search engines. </p>
+                                <div class="dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- services-section -->
+            
+            <section id="portfolios" class="portfolio-section section-padding bd-bottom" data-scroll-index="4">
+                <div class="container">
+                   <div class="section-heading text-center mb-40 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                       <h2>Work Portfolios</h2>
+                   </div>
+                    <div class="portfolio-wrapper">
+                        <div class="row portfolio-items">
+                            <div class="col-md-4 col-sm-6 padding-10 single-item design wordpress">
+                               <div class="portfolio-box">
+                                   <img src="img/kodey.png" alt="img">
+                                   <div class="portfolio-content">
+                                       <h3><a class="img-popup" href="img/kodey.png">Kodey<span>Web Agency</span></a></h3>
+                                       <h3><a href="https://www.kodey.fr" target="_blank"><span>Website</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 padding-10 single-item branding marketing">
+                               <div class="portfolio-box">
+                                   <img src="img/Komet.png" alt="img">
+                                   <div class="portfolio-content">
+                                       <h3><a class="img-popup" href="img/Komet.png">Komet Xperience<span>3D technology</span></a></h3>
+                                       <h3><a href="https://www.komet-xp.fr/" target="_blank"><span>Website</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 padding-10 single-item design marketing">
+                               <div class="portfolio-box">
+                                   <img src="img//webflix.png" alt="img">
+                                   <div class="portfolio-content">
+                                       <h3><a class="img-popup" href="img//webflix.png">Webflix<span>Streaming template</span></a></h3>
+                                       <h3><a href="https://samuel-ja.com/Webflix/connexion.php" target="_blank"><span>Website</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 padding-10 single-item marketing wordpress">
+                               <div class="portfolio-box">
+                                   <img src="img/Nifty2.png" alt="img">
+                                   <div class="portfolio-content">
+                                       <h3><a class="img-popup" href="img/Nifty2.png">Nifty 2.0<span>NFT marketplace template</span></a></h3>
+                                       <h3><a><span>Website ( coming soon )</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 padding-10 single-item wordpress branding">
+                               <div class="portfolio-box">
+                                   <img src="img/nifty.png" alt="img">
+                                   <div class="portfolio-content">
+                                    <h3><a class="img-popup" href="img/nifty.png">Nifty<span>NFT marketplace template</span></a></h3>
+                                    <h3><a><span>Website ( coming soon )</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 padding-10 single-item design">
+                               <div class="portfolio-box">
+                                   <img src="img/godFavor.png" alt="img">
+                                   <div class="portfolio-content">
+                                    <h3><a class="img-popup" href="img/godFavor.png">God's favors<span>Game Website</span></a></h3>
+                                    <h3><a><span>Website ( coming soon )</span></a></h3>
+                                   </div>
+                               </div>
+                            </div>
+                            <!-- <div class="col-md-4 col-sm-6 padding-10 single-item design">
+                               <div class="portfolio-box">
+                                   <img src="img/portfolio.jpg" alt="img">
+                                   <div class="portfolio-content">
+                                    <h3><a class="img-popup" href="img/portfolio.jpg">Samuel J-a<span>Design Portfolio</span></a></h3>
+                                    <h3><a><span>Website ( coming soon )</span></a></h3>
+                                   </div>
+                               </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- portfolio section -->
+            
+            <section class="cta-section section-padding bd-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 xs-padding">
+                            <div class="cta-content">
+                                <h3>Need a Developper?</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <a href="#contact" class="default-btn">Hire Me Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+            
+            <section id="contact" class="contact-section section-padding" data-scroll-index="5">
+                <div class="container">
+                    <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                        <h2>Get In Touch</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <form method="post" class="row contact-form text-center">
+                                <div class="form-group col-lg-6">
+                                    <input type="text" class="form-control" id="name" name="name_contact" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <textarea class="form-control message" id="message" name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <button id="submit" class="default-btn" type="submit">Send Message</button>
+                                    <?php
+
+                                        require 'connectionDataBase.php';
+                                    if(!empty($_POST['email']) && !empty($_POST['name_contact']) && !empty($_POST['message'])){
+                                        date_default_timezone_set('Europe/Paris');
+                                        $DateAndTime = date('m-d-Y h:i:s a', time());
+
+                                        $req = $pdo->prepare(
+                                        "INSERT INTO contact (mail,name_contact,msg,dateMessage,statut_message)
+                                        VALUES(:mail,:name_contact,:msg,:dateMessage,:statut_message)",
+                                        array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY)
+                                        );
+
+                                        $req->execute(
+                                        array(
+                                            ':mail' => htmlspecialchars($_POST['email']),
+                                            ':name_contact' => htmlspecialchars($_POST['name_contact']),
+                                            ':msg' => htmlspecialchars($_POST['message']),
+                                            ':dateMessage' => $DateAndTime,
+                                            ':statut_message' => "1",
+                                        )
+                                        );
+
+                                        $req->closeCursor();
+                                        ?>
+                                        <p style="margin-top:3vh;">Nice! I will answer quickly!</p>
+                                        <?php
+                                    }else{
+                                        ?>
+
+                                        <?php
+                                    }
+
+                                        ?>
+                                </div>
+                                <div id="form-messages" class="form-group col-lg-12">
+                                    <div class="alert" role="alert"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- contact-section -->
+            
+            <footer class="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>© <script> document.write(new Date().getFullYear())</script>  Samuel J. ♟️</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="footer-social text-right">
+                                <a href="https://www.linkedin.com/in/samuel-ja/" target="_blank"><i class="ti-linkedin"></i></a>
+                                <a href="https://github.com/Aigo54" target="_blank"><i class="ti-github"></i></a>
+                                <a href="https://twitter.com/WKliat" target="_blank"><i class="ti-twitter"></i></a>
+                                <a href="https://www.instagram.com/ja_samuel_57/" target="_blank"><i class="ti-instagram"></i></a>
+                            </div>
+                            <!-- footer-social -->
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer-section -->
+            
+        </div>
+        <!-- dl-side-content -->
+
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/vendor/popper.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/scrollit.js"></script>
+        <script src="js/vendor/jquery.waypoints.min.js"></script>
+        <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+        <script src="js/vendor/venobox.min.js"></script>
+        <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+        <script src="js/vendor/owl.carousel.min.js"></script>
+        <script src="js/vendor/typed.min.js"></script>
+        <script src="js/vendor/bootstrap-menu.js"></script>
+        <script src="js/vendor/wow.min.js"></script>
+        <script src="js/vendor/particles.min.js"></script>
+        <script src="js/vendor/app.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
